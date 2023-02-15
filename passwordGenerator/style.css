@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto+Mono:wght@500&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    background-color: #1F2937;
+    max-width: 90rem;
+    padding: 10rem 3rem 1rem;
+    border-radius: 1rem;
+    height: auto;
+}
+
+#heading {
+    font-size: 7rem;
+    line-height: 7rem;
+}
+
+#heading > span {
+    color: #4ADF87;
+}
+
+#paragraph {
+    color: #A8A9AF;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#password-el {
+    background-color: #11B981;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 2rem 0rem 4rem;
+    height: 5rem;
+    width: 24rem;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+#password-el:hover {
+    background-color: #14dc994c;
+}
+
+.passwords {
+    display: flex;
+    font-size: 2.8rem;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+#password1 {
+    border: solid none;
+    width: 20rem;
+    background-color: #27354A;
+    border-radius: 0.6rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#password2 {
+    border: solid none;
+    width: 20rem;
+    background-color: #27354A;
+    border-radius: 0.6rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy-text-btn {
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+#copy-text-btn1:hover {
+    background-color: rgba(255, 255, 255, 0.517);
+}
+
+#copy-text-btn2:hover {
+    background-color: rgba(255, 255, 255, 0.517);
+}
+
+#copy-text-btn1 {
+    cursor: pointer;
+    width: 18rem;
+    background-color: white;
+    border-radius: 0.6rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy-text-btn2 {
+    cursor: pointer;
+    width: 18rem;
+    background-color: white;
+    border-radius: 0.6rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 472px) {
+    main {
+        height: auto;
+        padding: 8rem 3rem 1rem;
+    }
+
+    .passwords {
+        display: block;
+    }
+
+    #password1 {
+        margin: 0 auto 3rem;
+    }
+
+    #password2 {
+        margin: 0 auto 2rem;
+    }
+
+    #copy-text-btn {
+        display: block;
+    }
+
+    #copy-text-btn1 {
+        margin:auto;
+    }
+
+    #copy-text-btn2 {
+        margin: 1.5rem auto 3rem;
+    }
+}
